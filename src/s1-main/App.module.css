@@ -1,5 +1,11 @@
 .App {
     --header_height: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .hw {
@@ -8,4 +14,15 @@
 
 .hwTitle {
 
+}
+.messages{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+img {
+    width:50px;
+    height:50px;
+    border-radius: 50%;
 }
